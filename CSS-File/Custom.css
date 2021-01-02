@@ -1,0 +1,271 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html
+{
+  scroll-behavior: smooth;
+  transition: .3s;
+}
+body
+{
+  background: #ecf0f3;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.container
+{
+  width: 1100px;
+  margin: 0 auto;
+}
+.header
+{
+  background: #dc143c;
+  padding: 12px;
+}
+.header-wrapper
+{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a
+{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 8px;
+  display: inline-block;
+}
+.menu ul
+{
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  margin: 8px;
+  display: inline-block;
+}
+.showcase
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#0000008a,#0000008a),
+              url("../Assets-File/Banner.jpg");
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 85%, 0 100%);
+}
+.banner-content
+{
+  text-align: center;
+}
+.banner-content h2
+{
+  text-transform: capitalize;
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 8px;
+  letter-spacing: 6px;
+}
+.banner-content p
+{
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.banner-content a
+{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  background: #dc143c;
+  padding: 10px 30px;
+  border-radius: 6px;
+  display: inline-block;
+}
+.about
+{
+  margin: 80px 0;
+}
+.about-wrapper .title 
+{
+  margin-bottom: 35px;
+  text-align: center;
+}
+.title h3
+{
+  text-transform: uppercase;
+  font-size: 35px;
+  letter-spacing: 2px;
+  color: #333333;
+}
+.about-box
+{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-box
+{
+  flex-basis: 45%;
+}
+.image-box img
+{
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #dfdfdf;
+}
+.content-box
+{
+  flex-basis: 50%;
+}
+.content-box h5
+{
+  text-transform: capitalize;
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  color: #dc143c;
+}
+.content-box p
+{
+  text-transform: capitalize;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.content-box a
+{
+  display: inline-block;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  background: #dc143c;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+.services
+{
+  margin-bottom: 80px;
+  background: #ddddca;
+  padding: 50px 0;
+}
+.services-wrapper .title
+{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.services-box
+{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.singlel-service
+{
+  flex-basis: 30%;
+  text-align: center;
+  padding: 25px 25px;
+  background: #ecf0f3;
+  border-radius: 3px;
+}
+.singlel-service i
+{
+  font-size: 35px;
+  color: #dc143c;
+  margin-bottom: 20px;
+}
+.singlel-service h4
+{
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #555555;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.singlel-service p
+{
+  text-transform: capitalize;
+  font-size: 15px;
+  color: #555555;
+  line-height: 22px;
+}
+.contacts
+{
+  margin-bottom: 50px;
+}
+.contacts-wrapper .title
+{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.contact-box
+{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.single-contact
+{
+  text-align: center;
+  padding: 10px;
+  flex-basis: 30%;
+}
+.single-contact i
+{
+  font-size: 35px;
+  color: #dc143c;
+  margin-bottom: 20px;
+}
+.single-contact p
+{
+  font-weight: bold;
+  font-size: 15px;
+  color: #333333;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
+.main-footer
+{
+  background: #555555;
+  padding: 15px;
+}
+.footer-wrapper
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-wrapper p
+{
+  color: #fff;
+  font-size: 15px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
